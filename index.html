@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiPortafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2? family= Righteous &familia= Roboto:peso@500 & display=swap" rel="stylesheet">
+<script src="script.js"></script>
+</head>
+<body>
+    <section id="inicio">
+    <header>
+        <div class="logo">
+            <a href="#">JONATHAN</a>
+        </div>
+        <nav>
+            <a href="#inicio" class="nav-link">INICIO</a>
+            <a href="#sobre-mi" class="nav-link">SOBRE MI</a>
+            <a href="#skills" class="nav-link">SKILLS</a>
+            <a href="#contactame" class="nav-link">CONTACTAME</a>
+        </nav>
+        
+    </header>
+        <div class="contenedor-img">
+           <img src="perfil.jpg" alt="">
+           <h1>JONA SILVA</h1>
+        <h2>Desarrollador de Software</h2>
+        </div>
+    
+<div class="redes">
+    <a href="#"><img src="facebook.png" alt=""></a>
+    <a href="#"><img src="gorjeo.png" alt=""></a>
+    <a href="#"><img src="instagram.png" alt=""></a>
+</div>
+    </section>
+        <section id="sobre-mi">
+            <div class="content">
+                <div class="text">
+                    <h1>SOBRE MI</h1>
+                    <p>
+                        ¡Saludos! <br> Bienvenido a mi portafolio. Soy Jonathan Silva, <br> un apasionado estudiante de Desarrollo Web <br> en el programa Jóvenes a Programar. Con una sólida <br> formación en desarrollo web y pruebas, me encuentro <br> en constante búsqueda de nuevas oportunidades para <br> ampliar mis conocimientos. Aquí podrás explorar <br> algunos de mis trabajos y conocer las herramientas <br> con las que trabajo. <br> ¡Es un placer tenerte aquí!
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="sobremi.png" alt="Imagen sobre mí">
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="content">
+                <div class="text">
+                    <h1>SKILLS</h1>
+                    <p>
+                        Poseo sólidas habilidades en el desarrollo web, destacando especialmente en HTML, CSS y JavaScript. Mi experiencia en estas tecnologías me ha permitido crear y diseñar sitios web atractivos y funcionales. Gracias a mi profundo conocimiento de HTML, puedo estructurar eficientemente el contenido y optimizar la accesibilidad de las páginas. Además, mis habilidades en CSS me permiten estilizar los elementos con precisión, creando diseños modernos y agradables a la vista. Asimismo, mi dominio de JavaScript me permite desarrollar interacciones dinámicas y experiencias de usuario mejoradas. Estoy constantemente actualizando mis conocimientos y explorando nuevas tendencias para ofrecer soluciones web innovadoras y de alta calidad.
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="skills.jpg" alt="Imagen habilidades">
+                </div>
+            </div>
+        </section>
+        <section id="contactame">
+            <h1>CONTÁCTAME</h1>
+            <div class="formulario-contenedor">
+            <form action="enviar_formulario.php" method="post">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+          
+              <label for="email">Correo electrónico:</label>
+              <input type="email" id="email" name="email" required>
+          
+              <label for="asunto">Asunto:</label>
+              <input type="text" id="asunto" name="asunto" required>
+          
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          
+              <button type="submit">Enviar</button>
+            </form>
+            </div>
+          </section>
+          
+</body>
+</html>

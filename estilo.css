@@ -1,0 +1,258 @@
+
+header{ 
+    display: flex;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.9) ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.logo a{
+    color: aqua;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    display: flex;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+nav a{
+    font-weight: 600;
+    padding: 10px;
+    color: beige; 
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover{ 
+    color: aqua;
+}
+
+#inicio{ 
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,  url(fondo.jpg);
+}
+
+ img{ 
+    width: 200px;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 35px;
+    border: 5px solid #1cb698; 
+}
+
+.contenedor-img {
+    background-color: black;
+    background: rgba(0, 0, 0, 0.8); /* Fondo negro con 80% de opacidad */
+    padding: 15px;
+    max-width: 260px;
+    text-align: center;
+    border-radius: 35px;
+    display: block;
+    margin: 20px auto; /* Ajuste para centrar horizontalmente */
+    height: 420px;
+    margin-top: 60px;
+}
+
+
+h1{
+    color: aliceblue;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size:20px;
+}
+
+
+h2{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.redes a {
+    display: inline-block;
+    margin: 10px; /* Espacio entre los iconos */
+}
+
+.redes img {
+    width: 40px; /* Tamaño deseado para los iconos */
+    height: 40px; /* Tamaño deseado para los iconos */
+    border-color: whitesmoke
+}
+
+/* Cambia el color del texto dentro de la sección SOBRE MI */
+#sobre-mi {
+    margin-top: 60px; /* Ajustar la separación entre INICIO y SOBRE MI */
+    min-height: 100vh; 
+    background-color: blueviolet;
+    
+    
+}
+
+#sobre-mi p {
+    color: aliceblue; /* Cambiar a tu color deseado */
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 25px;
+    line-height: 1.4;
+    margin-top: -70px;
+    margin-right: 300px
+}
+
+#sobre-mi h1 {
+    font-size: 50px; 
+    color: #1cb698;
+    padding: 50px;
+}
+
+#sobre-mi .image img {
+    width: 450px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    border-radius: 10px;
+    position: absolute;
+    top: 870px; /* Mueve la imagen hacia arriba */
+    right: 20px; /* Mueve la imagen hacia la derecha */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+#skills h1 {
+    font-size: 50px; 
+    color: #1cb698;
+    padding: 30px;
+}
+
+#skills p{
+    color: aliceblue; /* Cambiar a tu color deseado */
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 25px;
+    line-height: 1.4;
+    margin-top: -70px;
+    
+}
+
+#skills {
+    background-color: blueviolet; 
+    margin: 0 auto;
+    
+}
+
+#skills .image img{
+    width: 350px; /* Ancho de la imagen */
+    height: 260px; /* Altura de la imagen */ 
+    position: relative; /* Importante para que funcione la posición */
+    top: -50px; /* Mueve la imagen hacia arriba 20px */
+    right: -490px; /* Mueve la imagen hacia la derecha 40px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+#contactame {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: blueviolet;
+    min-height: 100vh; 
+    
+
+  }
+
+  /* Estilos para el título del formulario */
+#contactame h1 {
+    font-size: 50px;
+    color: #1cb698;
+    margin-bottom: 20px;/* Estilos para el título del formulario */
+    
+ }
+
+ /* Estilos para las etiquetas de los campos */
+#contactame label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #1cb698;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Estilos para los campos de entrada de texto */
+#contacto input[type="text"],
+#contacto input[type="email"],
+#contacto textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #1cb698;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+/* Estilos para el área de texto */
+#contacto textarea {
+  resize: vertical;
+}
+
+/* Estilos para el botón de enviar */
+#contactame button[type="submit"] {
+  background-color: #1cb698;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#contactame textarea {
+    width: 60%;
+    padding: 15px;
+    border: 1px solid #1cb698;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+
+  #contactame input[type="email"]
+  #contactame input[type="text"],
+
+  /* Estilos para el botón de enviar */
+#contactame button[type="submit"] {
+    background-color: #1cb698;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  #contactame button[type="submit"]:hover {
+    background-color: #0f7c5c;
+  }
+  
+  #contactame form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.formulario-contenedor {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Sombra */
+    padding: 30px;
+}
